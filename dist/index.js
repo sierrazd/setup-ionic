@@ -4794,7 +4794,7 @@ class LRUCache {
       return null
 
     del(this, node)
-    return node.value
+    return .value
   }
 
   del (key) {
@@ -4829,7 +4829,7 @@ class LRUCache {
 }
 
 const get = (self, key, doUse) => {
-  const node = self[CACHE].get(key)
+  const  = self[CACHE].get(key)
   if (node) {
     const hit = node.value
     if (isStale(self, hit)) {

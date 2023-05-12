@@ -1,6 +1,6 @@
 name: 'Setup Ionic'
 description: 'Set up your GitHub Actions workflow with Cordova/Ionic environment. Only supports macos & ubuntu at this time.'
-author: 'coturiv'
+author: 'sierrazd'
 branding:
   color: purple
   icon: code
